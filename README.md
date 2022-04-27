@@ -59,7 +59,7 @@ Automated E2E tests becomes then necessary to ensure the delivery of new feature
 The following architecture diagram simplifies the proposed solution. Note that an independent account is used to run the mentioned E2E
 tests based on the provided Terraform modules.
 
-![pic1](./.docs/CI4Terraform.png)
+![pic1](./.docs/CI4Terraform_.png)
 
 
 # Repository Structure
