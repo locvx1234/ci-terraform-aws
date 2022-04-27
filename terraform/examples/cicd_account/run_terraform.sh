@@ -39,7 +39,7 @@ fi
 
 if [[ ${CLEAN_UP} == "Yes" ]]; then
     terraform output | grep -i S3_bucket
-    read -p "Confirm that you have empty the S3 bucket"
+    read -p "Confirm that you have empty the S3 bucket "
     echo "[INFO] destroy all"
     terraform destroy -var-file ${TFVARS_FILE}
     exit 0

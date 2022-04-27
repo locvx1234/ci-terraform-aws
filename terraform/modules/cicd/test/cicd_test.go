@@ -10,7 +10,7 @@ import (
 	"testing"
 )
 
-func TestBitBucketIntegration(t *testing.T) {
+func TestAWSCodePipeline(t *testing.T) {
 
 	uniqueId := strings.ToLower(random.UniqueId())
 	awsRegion := aws.GetRandomStableRegion(t, nil, nil)

@@ -1,4 +1,3 @@
-## ci-4-terraform-aws-developer-tools-terratest
 
 # Table of Contents
 - [Table of Contents](#table-of-contents)
@@ -132,7 +131,7 @@ To deploy the CI follow the these steps:
 3. Deploy the resources:
 
     ```sh
-    cd terraform/examples
+    cd terraform/examples/cicd_account
     ./run_terraform.sh
     ```
 
@@ -187,8 +186,8 @@ When you finished, in order to do not incur in extra costs, you should clean up 
 You can do that by running:
 
 ```sh
-cd terraform/examples
-./run_terraform.sh delete
+cd terraform/examples/cicd_account
+./run_terraform.sh -d
 ```
 
 The procedure will stop asking for confirming to have removed every object from the S3 bucket.
